@@ -1,0 +1,69 @@
+/* General styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #4a90e2;
+  margin-bottom: 20px;
+}
+
+/* Form styles */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+select,
+input[type="number"],
+input[type="text"] {
+  width: 100%;
+  max-width: 400px; /* Consistent width for dropdown and inputs */
+  padding: 8px 0px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+}
+
+/* Button styles */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4a90e2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #357ab8;
+}
+
+/* Container styles */
+div {
+  margin: 20px 0;
+}
+
+/* Center alignment */
+div.contractParams {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.container {
+  text-align: center;
+}
